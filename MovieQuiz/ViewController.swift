@@ -8,6 +8,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var questionCounter = 1
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemGray6
@@ -112,8 +114,24 @@ class ViewController: UIViewController {
     }()
     
     
+    func updateUI() {
+        numberLabel.text = "\(questionCounter)/10"
+    }
+    
     @objc func buttonTapped(sender: UIButton) {
-        print(sender.titleLabel)
+      
+        if questionCounter == 1 {
+            noButton.isEnabled = false
+        }
+        if sender.titleLabel?.text == "Yes" {
+            questionCounter += 1
+            updateUI()
+            print(questionCounter)
+        } else {
+            questionCounter -= 1
+            print(questionCounter)
+            updateUI()
+        }
     }
     
 }
