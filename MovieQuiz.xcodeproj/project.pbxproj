@@ -9,25 +9,35 @@
 /* Begin PBXBuildFile section */
 		110C30492B699017003B8AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C30482B699017003B8AD9 /* AppDelegate.swift */; };
 		110C304B2B699017003B8AD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C304A2B699017003B8AD9 /* SceneDelegate.swift */; };
-		110C304D2B699017003B8AD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C304C2B699017003B8AD9 /* ViewController.swift */; };
+		110C304D2B699017003B8AD9 /* MainGameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C304C2B699017003B8AD9 /* MainGameScreen.swift */; };
 		110C30522B699019003B8AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110C30512B699019003B8AD9 /* Assets.xcassets */; };
 		110C30552B699019003B8AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110C30532B699019003B8AD9 /* LaunchScreen.storyboard */; };
 		110C305D2B6992C6003B8AD9 /* CustonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110C305C2B6992C6003B8AD9 /* CustonButton.swift */; };
+		113CD6372B7CD596004F9ADF /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113CD6362B7CD596004F9ADF /* RecordTableViewCell.swift */; };
+		113CD6392B7CE0EE004F9ADF /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113CD6382B7CE0EE004F9ADF /* Records.swift */; };
 		115AADBB2B69A58E0044FD34 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AADBA2B69A58E0044FD34 /* Array+Extensions.swift */; };
 		115AADBD2B69A59B0044FD34 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AADBC2B69A59B0044FD34 /* Date+Extensions.swift */; };
+		115AADC42B6A9B8D0044FD34 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AADC32B6A9B8D0044FD34 /* SplashScreen.swift */; };
+		115AADC62B6ABC490044FD34 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AADC52B6ABC490044FD34 /* RecordViewController.swift */; };
+		115AADC82B6ABDDD0044FD34 /* RecordsRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AADC72B6ABDDD0044FD34 /* RecordsRepo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		110C30452B699017003B8AD9 /* MovieQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		110C30482B699017003B8AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		110C304A2B699017003B8AD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		110C304C2B699017003B8AD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		110C304C2B699017003B8AD9 /* MainGameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameScreen.swift; sourceTree = "<group>"; };
 		110C30512B699019003B8AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		110C30542B699019003B8AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		110C30562B699019003B8AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		110C305C2B6992C6003B8AD9 /* CustonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonButton.swift; sourceTree = "<group>"; };
+		113CD6362B7CD596004F9ADF /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
+		113CD6382B7CE0EE004F9ADF /* Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
 		115AADBA2B69A58E0044FD34 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		115AADBC2B69A59B0044FD34 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		115AADC32B6A9B8D0044FD34 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		115AADC52B6ABC490044FD34 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		115AADC72B6ABDDD0044FD34 /* RecordsRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsRepo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +71,11 @@
 			isa = PBXGroup;
 			children = (
 				110C305F2B6992E4003B8AD9 /* Application */,
-				110C304C2B699017003B8AD9 /* ViewController.swift */,
-				110C30512B699019003B8AD9 /* Assets.xcassets */,
+				115AADBE2B6A9A8A0044FD34 /* Presentation */,
+				115AADC22B6A9AC10044FD34 /* Services */,
+				115AADC12B6A9AB50044FD34 /* Models */,
 				110C305E2B6992D1003B8AD9 /* Helper */,
+				110C30512B699019003B8AD9 /* Assets.xcassets */,
 				110C30562B699019003B8AD9 /* Info.plist */,
 			);
 			path = MovieQuiz;
@@ -87,6 +99,41 @@
 				110C304A2B699017003B8AD9 /* SceneDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		113CD63A2B7CF5FF004F9ADF /* Records List */ = {
+			isa = PBXGroup;
+			children = (
+				115AADC52B6ABC490044FD34 /* RecordViewController.swift */,
+				115AADC72B6ABDDD0044FD34 /* RecordsRepo.swift */,
+				113CD6382B7CE0EE004F9ADF /* Records.swift */,
+				113CD6362B7CD596004F9ADF /* RecordTableViewCell.swift */,
+			);
+			path = "Records List";
+			sourceTree = "<group>";
+		};
+		115AADBE2B6A9A8A0044FD34 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				115AADC32B6A9B8D0044FD34 /* SplashScreen.swift */,
+				110C304C2B699017003B8AD9 /* MainGameScreen.swift */,
+				113CD63A2B7CF5FF004F9ADF /* Records List */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		115AADC12B6A9AB50044FD34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		115AADC22B6A9AC10044FD34 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,12 +206,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				110C304D2B699017003B8AD9 /* ViewController.swift in Sources */,
+				110C304D2B699017003B8AD9 /* MainGameScreen.swift in Sources */,
 				115AADBB2B69A58E0044FD34 /* Array+Extensions.swift in Sources */,
+				115AADC42B6A9B8D0044FD34 /* SplashScreen.swift in Sources */,
+				115AADC62B6ABC490044FD34 /* RecordViewController.swift in Sources */,
 				110C305D2B6992C6003B8AD9 /* CustonButton.swift in Sources */,
+				113CD6372B7CD596004F9ADF /* RecordTableViewCell.swift in Sources */,
+				113CD6392B7CE0EE004F9ADF /* Records.swift in Sources */,
 				110C30492B699017003B8AD9 /* AppDelegate.swift in Sources */,
 				110C304B2B699017003B8AD9 /* SceneDelegate.swift in Sources */,
 				115AADBD2B69A59B0044FD34 /* Date+Extensions.swift in Sources */,
+				115AADC82B6ABDDD0044FD34 /* RecordsRepo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,9 +11,10 @@ class CustonButton: UIButton {
     init(title: String) {
         super.init(frame: .zero)
         self.setTitle(title, for: .normal)
-        self.setTitleColor(.black, for: .normal)
-        self.backgroundColor = .white
+        self.setTitleColor(.ypWhite, for: .normal)
+        self.backgroundColor = .ypBlack
         self.layer.cornerRadius = 15
+        self.titleLabel?.font = UIFont(name: "Marker Felt", size: 24)
         self.translatesAutoresizingMaskIntoConstraints = false
     }
     
@@ -21,3 +22,4 @@ class CustonButton: UIButton {
         fatalError("init(coder:) has not been implemented")
     }
 }
+
